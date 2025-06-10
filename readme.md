@@ -24,7 +24,7 @@ Raw climate datasets not available in this repository are publicly available as 
 * **COVID-19: Stringency Index** are available from Oxford
   Coronavirus Government Response Tracker, https://ourworldindata.org/covid-stringency-index.
 * **Data/Cumulative_effect/** folder: This file contains the results of the  cumulative effects of ENSO on all infectious diseases in our study.
-* **Data/Future/Future risk/** folder: This file contains the results of the projected cumulative case numbers from 2030s to 2092s for infectious diseases under different climate change scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5) and the results of  the impact of  global warming on the predicted  infectious dieases cases in China. But future estimates are quite large, so we only provided results of Scarlet fever.
+* **Data/Future/Future risk/** folder: This file contains the results of the projected cumulative case numbers from 2030s to 2092s for infectious diseases under different climate change scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5) and the results of  the impact of  global warming on the predicted  infectious dieases cases in China. But future estimates are quite large, so we only provided results of Scarlet fever in figshare (Link please see Data availability in our manuscript).
 
 ### Scripts
 
