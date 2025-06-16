@@ -2,49 +2,6 @@ Model Formula:
  ~ log_rate +pop + StringencyIndex_Average + e_lag1 + e_lag1 * t_p_corr_running_e + c_lag1 + c_lag1 * t_p_corr_running_c + e_lag2 + e_lag2 * t_p_corr_running_e + c_lag2 + c_lag2 * t_p_corr_running_c + e_lag3 + e_lag3 * t_p_corr_running_e + c_lag3 + c_lag3 * t_p_corr_running_c + e_lag4 + e_lag4 * t_p_corr_running_e + c_lag4 + c_lag4 * t_p_corr_running_c + e_lag5 + e_lag5 * t_p_corr_running_e + c_lag5 + c_lag5 * t_p_corr_running_c + e_lag6 + e_lag6 * t_p_corr_running_e + c_lag6 + c_lag6 * t_p_corr_running_c | 
     iso + month | 0 | 0 
 
-
-Call:
-   felm(formula = form_test, data = panel) 
-
-Residuals:
-     Min       1Q   Median       3Q      Max 
--15.0805  -0.5043   0.1540   0.7631   9.4078 
-
-Coefficients:
-                           Estimate Std. Error t value Pr(>|t|)    
-pop                        5.803744   0.424650  13.667  < 2e-16 ***
-StringencyIndex_Average   -0.012626   0.001131 -11.167  < 2e-16 ***
-e_lag1                     0.547411   0.298587   1.833  0.06679 .  
-t_p_corr_running_e              NaN         NA     NaN      NaN    
-c_lag1                    -0.503762   0.352141  -1.431  0.15260    
-t_p_corr_running_c              NaN         NA     NaN      NaN    
-e_lag2                     1.075954   0.364941   2.948  0.00321 ** 
-c_lag2                     0.559231   0.560684   0.997  0.31860    
-e_lag3                     0.866478   0.369679   2.344  0.01911 *  
-c_lag3                    -0.148564   0.594813  -0.250  0.80278    
-e_lag4                    -0.492170   0.361576  -1.361  0.17350    
-c_lag4                     0.159069   0.597488   0.266  0.79007    
-e_lag5                     0.807690   0.347486   2.324  0.02013 *  
-c_lag5                    -0.946985   0.565056  -1.676  0.09380 .  
-e_lag6                    -0.261999   0.292247  -0.896  0.37002    
-c_lag6                     0.724088   0.358603   2.019  0.04351 *  
-e_lag1:t_p_corr_running_e -0.740713   0.416794  -1.777  0.07558 .  
-c_lag1:t_p_corr_running_c  0.678853   0.508586   1.335  0.18199    
-t_p_corr_running_e:e_lag2 -1.635860   0.509251  -3.212  0.00132 ** 
-t_p_corr_running_c:c_lag2 -0.389915   0.810300  -0.481  0.63039    
-t_p_corr_running_e:e_lag3 -1.279575   0.515448  -2.482  0.01307 *  
-t_p_corr_running_c:c_lag3  0.283942   0.859369   0.330  0.74110    
-t_p_corr_running_e:e_lag4  0.649975   0.504590   1.288  0.19774    
-t_p_corr_running_c:c_lag4 -0.806158   0.862682  -0.934  0.35009    
-t_p_corr_running_e:e_lag5 -1.051953   0.485170  -2.168  0.03018 *  
-t_p_corr_running_c:c_lag5  1.561321   0.816138   1.913  0.05578 .  
-t_p_corr_running_e:e_lag6  0.274959   0.407618   0.675  0.49998    
-t_p_corr_running_c:c_lag6 -0.673494   0.518599  -1.299  0.19410    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 1.993 on 7000 degrees of freedom
-  (因为不存在，744个观察量被删除了)
 Multiple R-squared(full model): 0.569   Adjusted R-squared: 0.5649 
 Multiple R-squared(proj model): 0.06658   Adjusted R-squared: 0.05764 
 F-statistic(full model):137.9 on 67 and 7000 DF, p-value: < 2.2e-16 
